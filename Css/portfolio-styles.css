@@ -1,0 +1,284 @@
+:root {
+  --page-bg-color: #ffffff;
+  --primary-text-color: #212121;
+  --card-set-gap: 30px;
+  --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  background-color: var(--page-bg-color);
+  color: var(--primary-text-color);
+  line-height: 1.5;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border-radius: 0px;
+}
+body {
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+header,
+footer,
+main {
+  font-family: Roboto, sans-serif;
+}
+address {
+  font-style: normal;
+}
+.up {
+  width: 1200px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 93px;
+
+  display: flex;
+  align-items: center;
+}
+.verb-span-header {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.verb-span-1-header {
+  color: black;
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.nav-a {
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+.verb-span-nav-1 {
+  color: #2196f3;
+  line-height: 1.14;
+}
+.verb-span-nav-2 {
+  color: black;
+  line-height: 1.14;
+}
+.button {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  background: #2196f3;
+  padding: 6px 22px;
+}
+.button-1 {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  text-align: center;
+  background: #ffffff;
+  padding: 6px 22px;
+}
+
+.span-button-section-1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #2196f3;
+}
+
+.nav-a-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav {
+  margin-left: 93px;
+  display: flex;
+  margin-right: 331px;
+}
+
+.nav-li-1 {
+  color: #2196f3;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.address-1 {
+  display: inline;
+  display: flex;
+  margin: 0px;
+}
+.nav-li-2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.nav-li-3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.contacts-email {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contacts-telefon {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.address-li-1 {
+  margin-right: 50px;
+}
+.address-li-2 {
+  margin-right: 0px;
+  margin: 0px;
+}
+header {
+  background-color: white;
+  letter-spacing: 0.01em;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contacts-city {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.span-button-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* PAGE */
+.page-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  text-align: center;
+}
+
+/* CARD SET */
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.card-set > .item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+/* CARD */
+.card {
+  box-shadow: var(--card-shadow);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 20px 24px;
+}
+
+.card-text {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #757575;
+}
+.card-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+address > .contacts-email {
+  display: block;
+  margin-bottom: 9px;
+}
+address > .contacts-telefon {
+  display: block;
+  margin-bottom: 60px;
+}
+.footer-a {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+footer {
+  background: #2f303a;
+}
+.footer {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 1200;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
