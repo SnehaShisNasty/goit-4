@@ -92,15 +92,11 @@ main {
   display: flex;
   margin: 0px;
 }
-.nav-li-2 {
-  color: black;
-  font-size: 14px;
-  font-weight: 500;
-  margin-right: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  line-height: 1.14;
+.nav-a-3:hover,
+.nav-a-3:focus {
+  color: #2196f3;
 }
+
 .nav-li-3 {
   color: black;
   font-size: 14px;
