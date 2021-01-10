@@ -43,9 +43,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-main {
-  background: #e5e5e5;
-}
 address {
   font-style: normal;
 }
@@ -60,7 +57,7 @@ address {
   align-items: center;
 }
 .full {
-  padding-top: 93px;
+  margin-top: 93px;
 }
 .verb-span-header {
   color: #2196f3;
@@ -80,14 +77,10 @@ address {
   padding-top: 20px;
   padding-bottom: 21px;
 }
-
-.button {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  text-align: center;
-  background: #2196f3;
-  padding: 6px 22px;
+.button-1:hover,
+.button-1:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .button-1 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -96,12 +89,10 @@ address {
   text-align: center;
   background: #ffffff;
   padding: 6px 22px;
-}
-
-.span-button-section-1 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
+  color: #212121;
 }
 
 .nav-a-1 {
