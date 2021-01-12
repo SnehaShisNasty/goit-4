@@ -96,6 +96,8 @@ main {
 .nav-a-3:focus {
   color: #2196f3;
 }
+.address-li-1 > .contacts-email::before {
+}
 
 .nav-li-3 {
   color: black;
@@ -133,7 +135,8 @@ header {
   height: 600px;
   display: flex;
   margin-bottom: 93px;
-  background-image: url(../img/index/up-main\ img\ .jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)),
+    url(../img/index/up-main\ img\ .jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -289,9 +292,10 @@ header {
   color: #757575;
   line-height: 1.9;
 }
-img {
+.card-thumb > img {
   display: block;
   height: auto;
+  max-width: 100%;
 }
 
 /* PAGE */
