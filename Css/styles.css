@@ -135,8 +135,13 @@ header {
   height: 600px;
   display: flex;
   margin-bottom: 93px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../img/index/up-main\ img\ .jpg);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
