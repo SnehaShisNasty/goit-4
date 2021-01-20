@@ -22,6 +22,8 @@ p,
 button {
   margin: 0px;
   padding: 0px;
+  border: 0px;
+  cursor: pointer;
 }
 
 header,
@@ -65,7 +67,7 @@ main {
   content: "";
   width: 16px;
   height: 12px;
-  background-image: url(../img/icon/icon-mail.svg);
+
   margin-right: 10px;
   background-size: contain;
 }
@@ -73,7 +75,7 @@ main {
   content: "";
   width: 10px;
   height: 16px;
-  background-image: url(../img/icon/icon-phone.svg);
+
   margin-right: 10px;
   background-size: contain;
 }
@@ -81,6 +83,7 @@ main {
 .nav-a-1:hover,
 .nav-a-1:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .nav {
