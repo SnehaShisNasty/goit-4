@@ -23,9 +23,10 @@ button {
   margin: 0px;
   padding: 0px;
   border: 0px;
+}
+button {
   cursor: pointer;
 }
-
 header,
 footer,
 main {
@@ -62,28 +63,6 @@ main {
 .address-li-2 {
   display: inline-flex;
   align-items: center;
-}
-.address-li-1 > .nav-a-1::before {
-  content: "";
-  width: 16px;
-  height: 12px;
-
-  margin-right: 10px;
-  background-size: contain;
-}
-.address-li-2 > .nav-a-1::before {
-  content: "";
-  width: 10px;
-  height: 16px;
-
-  margin-right: 10px;
-  background-size: contain;
-}
-
-.nav-a-1:hover,
-.nav-a-1:focus {
-  color: #2196f3;
-  fill: #2196f3;
 }
 
 .nav {
@@ -155,7 +134,7 @@ header {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/index/up-main\ img\ .jpg);
+    url(../img/index/jpg/up-main\ img\ .jpg);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -419,6 +398,7 @@ header {
   height: 90px;
   width: 170px;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .box-section-5 > .item:nth-child(1) {
   margin-right: 30px;
