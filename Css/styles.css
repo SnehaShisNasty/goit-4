@@ -56,7 +56,7 @@ main {
   padding-bottom: 30px;
   color: black;
 }
-.address-li-1 {
+.nav-a-1 .address-li-1 {
   display: inline-flex;
   align-items: center;
 }
@@ -219,8 +219,12 @@ header {
 .item-container-2 {
   margin-right: 60px;
   width: 270px;
-
   text-align: left;
+  line-height: 24px;
+}
+.item-container-2:last-child {
+  margin-right: -60px;
+  line-height: 24px;
 }
 .h-section-2 {
   text-transform: uppercase;
@@ -261,9 +265,6 @@ header {
   color: #212121;
   line-height: 1.6;
   margin-bottom: 94px;
-}
-.section-4 {
-  background-color: #f5f4fa;
 }
 .container-4 {
   width: 1200px;
@@ -309,9 +310,8 @@ header {
 .section-4 {
   width: 1600px;
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* CONTAINER */
@@ -375,20 +375,6 @@ header {
   margin-bottom: 9px;
 }
 
-.section-5 {
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 1200;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-.section-5 > .h-2 {
-  text-align: center;
-  color: #212121;
-  line-height: 1.17;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
 .box-section-5 {
   display: flex;
   margin-bottom: 94px;
@@ -468,6 +454,13 @@ footer {
   line-height: 1.2px;
   font-weight: 700;
   color: #212121;
+}
+.footer-a > .verb-span-1-header {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2px;
+  font-weight: 700;
+  color: #ffffff;
 }
 address {
   font-style: normal;
