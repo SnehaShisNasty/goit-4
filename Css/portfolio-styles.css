@@ -4,6 +4,10 @@
   --card-set-gap: 30px;
   --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --bg-header: white;
+  --bg-footer: #2f303a;
+  --font-f-address: normal;
+  --font-c-address: #757575;
 }
 
 body {
@@ -35,7 +39,7 @@ a {
   text-decoration: none;
 }
 button {
-  border-radius: 0px;
+  border: 0px;
   margin: 0px;
   padding: 0px;
   cursor: pointer;
@@ -47,7 +51,7 @@ body {
 }
 
 address {
-  font-style: normal;
+  font-style: var(--font-f-address);
 }
 .up {
   width: 1200px;
@@ -76,6 +80,20 @@ address {
   font-weight: 700;
   line-height: 1.2;
 }
+.verb-span-1-header {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2px;
+  font-weight: 700;
+  color: #212121;
+}
+.footer-a > .verb-span-1-header {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2px;
+  font-weight: 700;
+  color: #ffffff;
+}
 .nav-a {
   padding-top: 20px;
   padding-bottom: 21px;
@@ -95,6 +113,7 @@ address {
   font-weight: 500;
   line-height: 1.6;
   color: #212121;
+  align-items: center;
 }
 
 .nav-a-1 {
@@ -136,13 +155,13 @@ address {
   line-height: 1.14;
 }
 .contacts-email {
-  color: #757575;
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .contacts-telefon {
-  color: #757575;
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -155,12 +174,12 @@ address {
   margin: 0px;
 }
 header {
-  background-color: white;
+  background-color: var(--bg-header);
   letter-spacing: 0.01em;
 }
 
 .button-container {
-  text-align: center;
+  margin-left: 495px;
   margin-bottom: 40px;
 }
 
@@ -169,6 +188,7 @@ header {
   font-size: 14px;
   color: #ffffff;
   line-height: 1.7;
+  margin-bottom: 9px;
 }
 
 img {
@@ -256,7 +276,7 @@ address > .contacts-telefon {
   margin-top: 60px;
 }
 footer {
-  background: #2f303a;
+  background: var(--bg-footer);
 }
 .footer {
   margin-left: 15px;
