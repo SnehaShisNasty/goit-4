@@ -260,6 +260,8 @@ header {
   margin-bottom: 10px;
   letter-spacing: 0.03em;
 }
+.h-section-2::after {
+}
 .p-section-2 {
   font-weight: 200;
   font-size: 12px;
