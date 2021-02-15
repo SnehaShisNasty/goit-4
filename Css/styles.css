@@ -31,6 +31,19 @@ button {
   cursor: pointer;
   border: 0px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 header,
 footer,
 main {
@@ -102,15 +115,23 @@ main {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+.address-li-1 > .contacts-email {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.address-li-2 > .contacts-telefon {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
 .contacts-email {
-  color: var(--font-f-address);
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   display: inline-flex;
 }
 .contacts-telefon {
-  color: var(--font-f-address);
+  color: var(--font-c-address);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -130,7 +151,7 @@ header {
 .up-main {
   background-color: #2f303a;
   width: 1600px;
-  height: 600px;
+  min-height: 600px;
   display: flex;
   margin-bottom: 93px;
   background-image: linear-gradient(
@@ -306,10 +327,9 @@ header {
 /* PAGE */
 .page-title {
   font-size: 36px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-family: Roboto;
   font-weight: 700;
-  margin-bottom: 50px;
 }
 .section-4 {
   width: 1600px;
@@ -326,6 +346,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  align-items: center;
 }
 
 /* CARD SET */
